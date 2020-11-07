@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "SDCS2",
+  "version": "${version}",
+  "name": "sdcs2",
+  "description": "The successor to SDCS that no one ever asked for.",
+  "authors": [
+    "Sascha_T"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "server": [
+      "de.saschat.sdcs2.SDCS2"
+    ]
+  },
+  "mixins": [
+    "SDCS2.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.6+build.214",
+    "fabric": "*",
+    "minecraft": "1.17-alpha.20.45.a"
+  }
+}
